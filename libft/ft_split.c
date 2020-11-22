@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 13:22:31 by mlefevre          #+#    #+#             */
-/*   Updated: 2020/11/22 16:08:44 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:43:34 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ static char			*ft_mallocstring(const char *src, int n)
 	return (dest);
 }
 
-char		**ft_split(char const *str, char charset)
+char				**ft_split(char const *str, char charset)
 {
 	unsigned int	n;
 	char			**r;

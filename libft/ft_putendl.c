@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 18:10:53 by martin            #+#    #+#             */
-/*   Updated: 2020/11/22 18:21:31 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:37:18 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static void		ft_putstr_fd(char *s, int fd)
 	write(fd, s, mystrlen(s));
 }
 
-void ft_putendl_fd(char *s, int fd)
+void			ft_putendl_fd(char *s, int fd)
 {
 	if (!s)
 		return ;

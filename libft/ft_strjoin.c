@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 20:47:41 by martin            #+#    #+#             */
-/*   Updated: 2020/11/21 21:01:55 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:41:25 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,10 @@ static size_t	mystrlen(const char *str)
 
 char			*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t ss1;
-	size_t ss2;
-	size_t i;
-	char *str;
+	size_t	ss1;
+	size_t	ss2;
+	size_t	i;
+	char	*str;
 
 	if (!s1 || !s2)
 		return (0);

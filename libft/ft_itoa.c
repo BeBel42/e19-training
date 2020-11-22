@@ -6,13 +6,13 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 16:11:56 by martin            #+#    #+#             */
-/*   Updated: 2020/11/22 16:58:43 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:42:18 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-static void fillr(unsigned int un, char *r, int *i)
+static void	fillr(unsigned int un, char *r, int *i)
 {
 	if (un < 10)
 	{

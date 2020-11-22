@@ -6,21 +6,21 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/09 19:51:33 by martin            #+#    #+#             */
-/*   Updated: 2020/11/21 13:49:49 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:36:50 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void    *ft_memset(void *s, int c, size_t n)
+void	*ft_memset(void *s, int c, size_t n)
 {
-    char *p;
+	char *p;
 
-    p = s;
-    while (n--)
-    {
-        *p = c;
-        p++;
-    }
-    return (s);
+	p = s;
+	while (n--)
+	{
+		*p = c;
+		p++;
+	}
+	return (s);
 }

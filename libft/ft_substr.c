@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/20 19:19:16 by martin            #+#    #+#             */
-/*   Updated: 2020/11/21 13:51:54 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:43:08 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ static size_t	mystrlen(const char *s)
 
 char			*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char *str;
-	size_t i;
+	char	*str;
+	size_t	i;
 
 	if (!s)
 		return (0);

@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 13:16:22 by martin            #+#    #+#             */
-/*   Updated: 2020/11/22 14:30:21 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:36:11 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,10 @@ static int		isinset(char c, char const *set)
 
 static size_t	gettrimlen(char const *s1, char const *set)
 {
-	size_t b;
-	size_t e;
-	const char *const beg = s1;
+	size_t				b;
+	size_t				e;
+	const char *const	beg = s1;
+
 	b = 0;
 	e = 0;
 	while (*s1 && isinset(*s1, set))

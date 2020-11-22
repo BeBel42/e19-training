@@ -6,7 +6,7 @@
 /*   By: martin <martin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/15 12:35:35 by martin            #+#    #+#             */
-/*   Updated: 2020/11/21 13:51:40 by martin           ###   ########.fr       */
+/*   Updated: 2020/11/22 18:42:39 by martin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int	isfullword(const char *big, const char *little, size_t len)
 	return (*little == 0);
 }
 
-char	*ft_strnstr(const char *big, const char *little, size_t len)
+char		*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	if (*little == 0)
 		return ((char *)big);
