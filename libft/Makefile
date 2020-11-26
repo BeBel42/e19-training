@@ -6,7 +6,7 @@
 #    By: martin <martin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/21 20:48:35 by martin            #+#    #+#              #
-#    Updated: 2020/11/26 18:01:29 by martin           ###   ########.fr        #
+#    Updated: 2020/11/26 18:09:19 by martin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ FLAGS = -Wall -Wextra -Werror
 NAME = libft.a
 
 $(NAME): ${OBJS1} ${OBJS2}
-	ar -rcs libft.a ${OBJS1} ${OBJS2}
+	ar -rcs ${NAME} ${OBJS1} ${OBJS2}
 
 .c.o:
 	gcc $(FLAGS) -c $< -o $@
@@ -28,13 +28,13 @@ $(NAME): ${OBJS1} ${OBJS2}
 all: ${NAME}
 
 bonus: ${OBJS1} ${OBJS2} ${OBJSB}
-	ar -rcs libft.a ${OBJS1} ${OBJS2} ${OBJSB}
+	ar -rcs ${NAME} ${OBJS1} ${OBJS2} ${OBJSB}
 
 clean:
 	rm -f ${OBJS1} ${OBJS2} ${OBJSB}
 
 fclean: clean
-	rm -f libft.a
+	rm -f ${NAME}
 
 re: fclean all
 
